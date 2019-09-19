@@ -1,4 +1,3 @@
-name: Cody Hoag, Knowledge Engineer
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
-theme: cayman
+title: Cody Hoag's ownCloud Documentation Project
+description: Quickstart Guide for Installing and Using ownCloud
+theme: jekyll-theme-cayman
