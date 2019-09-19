@@ -10,4 +10,4 @@ Testing 1...2...3
 
 ## User
 
-- [Connecting to ownCloud Server](./docs/user/01-connecting-to-owncloud-server.md)
+- [Connecting to an ownCloud Server](./docs/user/01-connecting-to-owncloud-server.md)

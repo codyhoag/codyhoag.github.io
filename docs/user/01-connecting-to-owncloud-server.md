@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Enabling Users to Connect to ownCloud"
+title: "Connecting to an ownCloud Server"
 date: 2019-09-18
 ---
 
