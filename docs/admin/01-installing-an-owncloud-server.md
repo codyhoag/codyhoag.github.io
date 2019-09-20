@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Installing an ownCloud Server"
-date: 2019-09-18
 ---
 
 Before installing an ownCloud Server, you should first consider the deployment
@@ -22,28 +21,18 @@ Take a look at the
 page to ensure you choose the officially supported environments.
 
 Once your environment is ready, you can begin installing the ownCloud Server.
+You'll do that next.
+
+## Installation
+
 There are two ways to install your server:
 
 - [Docker](#installing-with-docker)
 - [Tar/Zip Archive File](#installing-with-a-tarzip-file)
 
-Once you've installed your ownCloud Server, you're presented with a vanilla
-version that can be easily customized. ownCloud provides a slew of configuration
-options that let you administer your hosted files in many different ways. Some
-configuration topics include
+You'll see how to install ownCloud with Docker first.
 
-- [General](https://doc.owncloud.com/server/admin_manual/configuration/general_topics/)
-- [Database](https://doc.owncloud.com/server/admin_manual/configuration/database/)
-- [Encryption](https://doc.owncloud.com/server/admin_manual/configuration/files/encryption/root.html)
-- [External Storage](https://doc.owncloud.com/server/admin_manual/configuration/files/external_storage/)
-- [Files](https://doc.owncloud.com/server/admin_manual/configuration/files/)
-- [LDAP](https://doc.owncloud.com/server/admin_manual/configuration/ldap/)
-- [Mimetypes](https://doc.owncloud.com/server/admin_manual/configuration/mimetypes/)
-
-Before you can configure your ownCloud Server, you must install it. You'll do
-that with Docker next.
-
-## Installing with Docker
+### Installing with Docker
 
 > **Note:** You must have Docker installed on your machine before installing
 > the ownCloud Server using Docker. See Docker's
@@ -90,7 +79,7 @@ your Docker container.
 
 Next, you'll step through the steps for installing ownCloud with a Tar/Zip file.
 
-## Installing with a Tar/Zip File
+### Installing with a Tar/Zip File
 
 To install ownCloud to your local machine via Tar/Zip file, follow these steps:
 
@@ -122,3 +111,20 @@ To install ownCloud to your local machine via Tar/Zip file, follow these steps:
     Setup*.
 
 You can now begin using your new ownCloud Server!
+
+Next, you'll configure your ownCloud Server.
+
+## Configuration
+
+Once you've installed your ownCloud Server, you're presented with a vanilla
+version that can be easily customized. ownCloud provides a slew of configuration
+options that let you administer your hosted files in many different ways. Some
+configuration topics include
+
+- [General](https://doc.owncloud.com/server/admin_manual/configuration/general_topics/)
+- [Database](https://doc.owncloud.com/server/admin_manual/configuration/database/)
+- [Encryption](https://doc.owncloud.com/server/admin_manual/configuration/files/encryption/root.html)
+- [External Storage](https://doc.owncloud.com/server/admin_manual/configuration/files/external_storage/)
+- [Files](https://doc.owncloud.com/server/admin_manual/configuration/files/)
+- [LDAP](https://doc.owncloud.com/server/admin_manual/configuration/ldap/)
+- [Mimetypes](https://doc.owncloud.com/server/admin_manual/configuration/mimetypes/)
