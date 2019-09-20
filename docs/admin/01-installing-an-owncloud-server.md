@@ -93,19 +93,20 @@ To install ownCloud to your local machine via Tar/Zip file, follow these steps:
 3.  Extract the archive file contents. The unpacked archive file resides in a
     single `owncloud` directory.
 
-4.  Copy the `ownCloud` to a running web server. For example, if you plan to run
-    ownCloud on an Apache HTTP server, you can copy `ownCloud` to your Apache
-    document root. For more information on configuring Apache, see the
+4.  Copy the `ownCloud` directory to a running web server. For example, if you
+    plan to run ownCloud on an Apache HTTP server, you can copy the `ownCloud`
+    directory to your Apache document root. For more information on configuring
+    Apache, see the
     [Configuring Apache](https://doc.owncloud.com/server/admin_manual/installation/manual_installation.html#configure-apache)
     section. This article will assume the Apache server is used.
 
-    For other HTTP servers, it's recommended to copy `ownCloud` outside the
-    document root. 
+    For other HTTP servers, it's recommended to copy the `ownCloud` directory
+    outside the document root. 
 
 5.  Restart your Apache server.
 
 6.  Run ownCloud's Installation Wizard by navigating to
-    http://localhost/owncloud.
+    [http://localhost/owncloud](http://localhost/owncloud).
 
 7.  Insert your desired account username and password. Then click *Finish
     Setup*.
@@ -128,3 +129,5 @@ configuration topics include
 - [Files](https://doc.owncloud.com/server/admin_manual/configuration/files/)
 - [LDAP](https://doc.owncloud.com/server/admin_manual/configuration/ldap/)
 - [Mimetypes](https://doc.owncloud.com/server/admin_manual/configuration/mimetypes/)
+
+Tune your ownCloud Server to best fit your needs.

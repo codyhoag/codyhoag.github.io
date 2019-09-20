@@ -10,7 +10,7 @@ You'll do this by configuring ownCloud's built-in LDAP application. Once LDAP is
 enabled in your ownCloud Server, users can access ownCloud by providing their
 LDAP credentials. 
 
-To configure LDAP in your ownCloud Server,
+Configure LDAP in your ownCloud Server by following these instructions:
 
 1.  In your server's UI, navigate to the top right dropdown menu and select
     *Settings*.

@@ -18,8 +18,8 @@ Add users to your ownCloud Server so they can access your content.
 
 4.  Select the *Create* button.
 
-> **Note:** Usernames may contain letters, numbers, dashes (`-`), underscores
-> (`_`), periods (`.`), and `@` signs.
+> **Note:** Usernames may contain letters (a-z, A-Z), numbers (0-9), dashes
+> (`-`), underscores (`_`), periods (`.`), and `@` signs.
 
 Excellent! You've added a user to your ownCloud Server. For additional topics on
 how to edit a user, see the following topics:

@@ -40,7 +40,7 @@ Once you've launched the installation wizard, follow the steps below:
 
     ![](../../images/server-address.png)
 
-5.  Enter you ownCloud user credentials. Then click *Next*.
+5.  Enter your ownCloud user credentials. Then click *Next*.
 
 6.  Set up your local folder and sync options. You can choose to sync everything
     from the server or choose the items manually.
